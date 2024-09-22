@@ -1,0 +1,28 @@
+{
+  "name": "dynamicneo4j",
+  "version": "1.0.0",
+  "author": "yWorks GmbH <yfileshtml@yworks.com>",
+  "license": "https://www.yworks.com/products/yfiles-for-html/sla",
+  "private": true,
+  "scripts": {
+    "build": "node --max_old_space_size=8000 node_modules/vite/bin/vite build",
+    "start": "vite"
+  },
+  "dependencies": {
+    "codemirror": "5.65.16",
+    "demo-resources": "C:\\Users\\daene\\yFiles-for-HTML-Complete-2.6.0.4-Evaluation\\demos-ts\\resources",
+    "neo4j-driver": "5.14.0",
+    "yfiles": "C:\\Users\\daene\\yFiles-for-HTML-Complete-2.6.0.4-Evaluation\\lib-dev\\yfiles-26.0.4+eval-dev.tgz"
+  },
+  "devDependencies": {
+    "@types/codemirror": "~5.60.15",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "@yworks/optimizer": "^1.8.1",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.1.6",
+    "vite": "^4.3.9"
+  }
+}

@@ -1,0 +1,7 @@
+/node_modules
+/dist
+src/**/*.js
+src/**/*.map
+!src/demo-app/**/*.js
+!src/resources/**/*.js
+!src/utils/**/*.js
